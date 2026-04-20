@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     background-color: green;
 }
 
-.layout{
+.wrapper { 
     background-color: white;
     width: 80vmin;
     position: absolute;
@@ -29,14 +29,14 @@ span{
     bottom: -1px;
 }
 
-.opt-layout{
+.opt-wrapper{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     gap: 10px;
 }
 
-.button{
+button{
     background-color: aqua;
     border: none;
     border-radius: 5px;
