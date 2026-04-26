@@ -3,13 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: monospace;
-
 }
 
 body {
     background-color: green;
 }
-
 .wrapper { 
     background-color: white;
     width: 80vmin;
@@ -28,7 +26,6 @@ span{
     font-size: 22px;
     bottom: -1px;
 }
-
 .opt-wrapper{
     display: flex;
     justify-content: space-between;
