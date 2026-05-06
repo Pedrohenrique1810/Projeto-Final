@@ -9,21 +9,27 @@ let paintBtn = document.querySelector("paint-btn");
 let widthValue = document.querySelector("width-value");
 let heigthValue = document.querySelector("heigth-value");
 
-let events {
+let events = {
     mouse: {
-        down: "mousedown";
-        move: "mousemove";
+        down: "mousedown",
+        move: "mousemove",
         up: "mouseap"
     },
     touch: {
         down: "touchdown",
         mobe: "tochmobe",
-        up: "touchmobe",
+        up: "touchend",
     },
 };
 
 let deviceType = "";
 let draw = false;
 let erase = false;
+
+gridWidth.addEventListener("input", () => {
+    heigthValue.innerHTML = gridWidth.value < 9 ? `0{gridWidth.value}` : gridButton.value;
+});
+
+gridHeigth.addEventListener()
     
 
