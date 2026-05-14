@@ -30,6 +30,12 @@ gridWidth.addEventListener("input", () => {
     heigthValue.innerHTML = gridWidth.value < 9 ? `0{gridWidth.value}` : gridButton.value;
 });
 
-gridHeigth.addEventListener()
+gridHeigth.addEventListener("input", () => {
+    widthValue.innerHTML = gridWidth.value < 9 ? `0$ {gridWidth.Value}` : gridWidth.value; 
+});
+window.onload = () => {
+    gridHeigth.value = 0;
+    gridWidth.value = 0;
+}
     
 
